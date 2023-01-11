@@ -43,7 +43,7 @@ window.addEventListener("scroll", scrollActive);
 // CHANGE BACKGROUND HEADER
 function scrollHeader() {
   const header = document.getElementById("header");
-  if (this.scrollY >= 664) header.classList.add("scroll-header");
+  if (this.scrollY >= 100) header.classList.add("scroll-header");
   else header.classList.remove("scroll-header");
 }
 window.addEventListener("scroll", scrollHeader);
