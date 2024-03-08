@@ -308,7 +308,7 @@ img {
 }
 
 .home__img img {
-  width: 300px;
+  width: 250px;
   /* height: 400px; */
   box-shadow: 0 0 0 9px rgba(225, 169, 173, 0.3);
   animation: profile__animate 8s ease-in-out infinite;
