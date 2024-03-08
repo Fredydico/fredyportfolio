@@ -303,8 +303,8 @@ img {
 
 .home__img {
   position: absolute;
-  right: 50px;
-  bottom: 50px;
+  right: 30px;
+  bottom: 30px;
 }
 
 .home__img img {
@@ -704,6 +704,11 @@ img {
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 576px) {
+  .home__img {
+    right: 50px;
+    bottom: 50px;
+  }
+
   .home__img img {
     width: 370px;
   }
@@ -775,6 +780,11 @@ img {
     margin-bottom: 0;
   }
 
+  .home__img {
+    right: 50px;
+    bottom: 50px;
+  }
+
   .home__img img {
     width: 440px;
   }
@@ -823,6 +833,11 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
+  .home__img {
+    right: 50px;
+    bottom: 50px;
+  }
+
   .bd-container {
     margin-left: auto;
     margin-right: auto;
