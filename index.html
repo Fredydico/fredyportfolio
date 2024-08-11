@@ -292,17 +292,16 @@
 
           <form class="contact__form" action="https://formsubmit.co/patriciusbara@gmail.com" method="POST">
             <div class="contact__inputs">
-              <input type="hidden" name="contact_number" />
-              <input type="text" placeholder="First Name" class="contact__input" />
-              <input type="text" placeholder="Last Name" class="contact__input" />
+              <input name="first_name" placeholder="First Name" class="contact__input" />
+              <input name="last_name" type="text" placeholder="Last Name" class="contact__input" />
             </div>
 
             <div class="contact__inputs">
-              <input type="email" placeholder="Email" class="contact__input" />
-              <input type="number" placeholder="Phone" class="contact__input" />
+              <input name="email" type="email" placeholder="Email" class="contact__input" />
+              <input name="number" type="number" placeholder="Phone" class="contact__input" />
             </div>
 
-            <textarea name="" id="" cols="0" rows="7" placeholder="Message" class="contact__input"></textarea>
+            <textarea name="message" id="" cols="0" rows="7" placeholder="Message" class="contact__input"></textarea>
             <input type="submit" value="Send Message" class="button contact__button" />
           </form>
         </div>
